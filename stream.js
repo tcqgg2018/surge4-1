@@ -179,7 +179,7 @@ panel_result['content'] = content
         if (code === 'Not Found') {
           return inner_check(80018499)
         }
-        netflix_check_result += '已完整解锁 ➠ '  +`${getFlagEmoji(code)} | ` + code.toUpperCase()
+        netflix_check_result += '完整版 ➠ '  +`${getFlagEmoji(code)} | ` + code.toUpperCase()
         return Promise.reject('BreakSignal')
       })
       .then((code) => {
@@ -187,7 +187,7 @@ panel_result['content'] = content
           return Promise.reject('Not Available')
         }
   
-        netflix_check_result += '仅自制剧 ➠ ' + `${getFlagEmoji(code)} | ` + code.toUpperCase()
+        netflix_check_result += '自制剧 ➠ ' + `${getFlagEmoji(code)} | ` + code.toUpperCase()
         return Promise.reject('BreakSignal')
       })
       .catch((error) => {
