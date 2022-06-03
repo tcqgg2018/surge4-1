@@ -110,7 +110,7 @@ function icon_color(num){
   }else if(num<=3 && num>0){
     return '#3EEDE7'
   }else if(num==0){
-    return '#FFFBF0'
+    return '#FF0000'
   }else{
     return '#00BC12'
   }
