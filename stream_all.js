@@ -4,6 +4,8 @@
  * 由@Rabbit-Spec修改
  * 更新日期：2022.07.22
  * 版本：2.3
+ * 由bigmom2012修改
+ * 更新日期：2022-07-30 11:28
  */
 
 const REQUEST_HEADERS = {
