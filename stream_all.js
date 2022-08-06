@@ -69,7 +69,7 @@ Date.prototype.Format = function (fmt) {
  let disney_result=""
     if (status==STATUS_COMING) {
         //console.log(1)
-        disney_result="Disney+: 即将登陆~"+region.toUpperCase()
+        disney_result="Disney+: 即将登陆 ➠ " +`${getFlagEmoji(region)} | ` + region.toUpperCase()
       } else if (status==STATUS_AVAILABLE){
         //console.log(2)
         console.log(region)
